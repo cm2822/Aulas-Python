@@ -1,0 +1,21 @@
+----------
+----------
+----------
+----------
+Título: ulisses
+Autor: maria menezes
+ISBN: 9789720726575
+Ano: 2016
+Editora: porto editora
+Categoria: ficção
+Disponibilidade: True
+----------
+
+Título: ulisses
+Autor: maria menezes
+ISBN: 9789720726575
+Ano: 2016
+Editora: porto editora
+Categoria: ficç
+Disponibilidade: True
+----------

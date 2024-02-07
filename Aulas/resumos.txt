@@ -1,0 +1,72 @@
+https://wallacemaxters.com.br/blog -- pagina fixe para ver coisas novas sobre python e super pequenas com codigo explicado
+
+for(variável de controlo com um valor inicial da variável) c in range(intervalo necessário para a sua execução) (1,4)
+
+bloco de código a ser executado
+    passo
+ataque
+
+
+while estrutura de controlo que permite repetir um bloco de código enquanto a condição introduzida for verdadeira.
+
+    contador = 1
+    while contador <= 5:
+    print (contador)
+    contador += 1
+
+
+containers são estruturas de dados implementadas dentro da base Python. As estruturas de dados mais utilizadas são o "list" e o "dictionary".
+
+Estas estruturas de dados providenciam formas de organizar os dados de forma útil e interessante. 
+
+Começando pela estrutura de dados : List
+
+List é basicamente uma lista de tarefas do cotidiano onde organizamos os nossos processos de forma prioritária. O list é utilizado para inserir itens ou strings de forma prioritária, começando no 0 e acabando no último dado inserido. As list podem sofrer alterações a meio do código.
+EX:
+[1971, 1984, 2003] --> list de números
+
+['maça', 'ananas', 'pêra'] --> list de strings
+
+[[4,25], [200, 343]] --> list que contém duas list
+
+uma das funções do list utilizadas
+
+list(range()) --> utilizado para assistir na criação da list
+
+EX:
+list(range(4)) --> cria uma list até 4 mas não está incluido ou seja(0, 1, 2, 3)
+list(range(4,6) --> cria uma list que começa em 2 até 6 mas não está incluido novamente
+list(range(6,18,3) --> cria uma list que começa em 6 até 18, não incluído, mas dá passos de 3 em 3 (6, 9, 12) 
+
+ As list podem sofrer alterações a meio do código:
+nome_list.append(elemento a ser chamado) --> adiciona elementos no final da list
+nome_list.extend(a_list) --> adiciona uma list dentro da mesma list
+nome_list.insert(index, elemento a ser chamado) --> insere elementos no indice da list
+nome_list.pop() --> elimina e retorna o último elemento da lista
+nome_list.pop(index) elimina e retorna o elemento no indice 
+nome_list.sort() --> organiza a list de forma alfabética ou numerica
+nome_list.remove() --> identificar o elemento para ser removido
+nome_list.filter() --> utilizado para remover strings ou espaços vazios dentro da lista
+nome_lis.enumerate() --> enumera a posição de cada valor dentro da lista e o que está nessa posição
+del nome_list --> remover a list
+nome_list.sort(reverse = True) --> reverter a ordem de uma list
+list(filter(None, set(lista))) --> filtrar a lista de strings vazias (filter) e retirar strings duplicadas (set)
+
+
+
+Dictionary --> é uma estrutura de dados onde a sua coleção de dados é desorganizada, modificável e indexável. Utilizado para organzizar dados que dentro dos mesmos tem outro tipo de dados e por assim adiante. 
+
+EX:
+capitals = {'United States': 'Washington, DC','France': 'Paris','Italy': 'Rome'}
+
+>>> capitals['Italy']
+'Rome'
+
+key --> utilizado para referir argumentos dentro da dict sejam ultimos ou primeiros tal como o index de uma list
+nome_list.values()-->  informação inserida no dict
+nome_list.keys()--> tema ou conteúdo de cada informação
+nome_list.items()--> identifica as informações dentro dos keys e das values
+nome_list.copy()--> retorna uma cópia do dicionário
+nome_list.pop()-->
+
+https://www.softcover.io/read/92780ad5/python_book/containers
